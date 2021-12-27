@@ -1,0 +1,21 @@
+{
+  "name": "paulloft/xlsx2csv",
+  "description": "Lightweight and sImple xlsx to csv converter",
+  "keywords": [
+    "xlsx2csv",
+    "xlsxtocsv",
+    "converter"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.3",
+    "ext-simplexml": "*",
+    "ext-xmlreader": "*",
+    "ext-zip": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Utils\\": "src"
+    }
+  }
+}
